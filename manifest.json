@@ -1,0 +1,23 @@
+{
+  "name": "Simple Stopwatch",
+  "manifest_version": 3,
+  "version": "3.1",
+  "description": "V3",
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
